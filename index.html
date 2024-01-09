@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Checker</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <form>
+                    <div class="form-group">
+                        <label for="heroSelect">Hero:</label>
+                        <select class="form-control" id="heroSelect" name="hero">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 mb-3">
+                <form>
+                    <div class="form-group">
+                        <label for="weaponSelect">Weapon:</label>
+                        <select class="form-control" id="weaponSelect" name="weapon">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 mb-3">
+                <form>
+                    <div class="form-group">
+                        <label for="bagSelect">Bag:</label>
+                        <select class="form-control" id="bagSelect" name="bag">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 mb-3">
+                <form>
+                    <div class="form-group">
+                        <label for="necklaceSelect">Necklace:</label>
+                        <select class="form-control" id="necklaceSelect" name="necklace">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 mb-3">
+                <form>
+                    <div class="form-group">
+                        <label for="gloveSelect">Gloves:</label>
+                        <select class="form-control" id="gloveSelect" name="gloves">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 mb-3">
+                <form>
+                    <div class="form-group">
+                        <label for="helmetSelect">Helmet:</label>
+                        <select class="form-control" id="helmetSelect" name="helmet">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 mb-3">
+                <form>
+                    <div class="form-group">
+                        <label for="armorSelect">Armor:</label>
+                        <select class="form-control" id="armorSelect" name="armor">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 mb-3">
+                <form>
+                    <div class="form-group">
+                        <label for="bootSelect">Boots:</label>
+                        <select class="form-control" id="bootSelect" name="boots">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="requirement" class="form-label">Requirement</label>
+                <input class="form-control" id="requirement" oninput="validateNumber(this)">
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="totalSum" class="form-label">Total:</label>
+                <input class="form-control" id="totalSum" disabled>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="result" class="form-label">Result:</label>
+                <input class="form-control" id="result" disabled>
+            </div>
+        </div>
+        
+    </div>
+
+
+    
+    
+      
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
